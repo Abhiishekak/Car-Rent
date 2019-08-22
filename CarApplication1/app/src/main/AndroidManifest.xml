@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.abhishek.carapplication1">
+
+    <!--
+         The ACCESS_COARSE/FINE_LOCATION permissions are not required to use
+         Google Maps Android API v2, but you must specify either coarse or fine
+         location permissions for the 'MyLocation' functionality.
+    -->
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <!-- To auto-complete the email text field in the login form with the user's emails -->
+    <uses-permission android:name="android.permission.GET_ACCOUNTS" />
+    <uses-permission android:name="android.permission.READ_PROFILE" />
+    <uses-permission android:name="android.permission.READ_CONTACTS" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/applo"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+
+        <!--
+             The API key for Google Maps-based APIs is defined as a string resource.
+             (See the file "res/values/google_maps_api.xml").
+             Note that the API key is linked to the encryption key used to sign the APK.
+             You need a different API key for each encryption key, including the release key that is used to
+             sign the APK for publishing.
+             You can define the keys for the debug and release targets in src/debug/ and src/release/.
+        -->
+        <meta-data
+            android:name="com.google.android.geo.API_KEY"
+            android:value="@string/google_maps_key" />
+
+        <activity
+            android:name=".MapsActivity"
+            android:label="@string/title_activity_maps" />
+        <activity android:name=".MainActivity">
+
+
+    </activity>
+        <activity android:name=".Actions"/>
+        <activity android:name=".admin">
+
+        </activity>
+        <activity android:name=".addcar"/>
+        <activity android:name=".delete"/>
+        <activity android:name=".update"/>
+        <activity android:name=".register"/>
+        <activity android:name=".firstActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+
+        </activity>
+        <activity android:name=".secondActivity"/>
+        <activity android:name=".thirdActivity"/>
+        <activity android:name=".fourthactivity"/>
+        <activity android:name=".MainActivity2" />
+        <activity android:name=".MainActivity3" />
+        <activity android:name=".GridItem1" >
+
+
+
+        </activity>
+        <activity android:name=".GridItem1Display" >
+
+        </activity>
+        <activity android:name=".MainActivity4" />
+        <activity android:name=".MainActivity5" />
+        <activity android:name=".MainActivity6" />
+        <activity android:name=".MainActivity7" />
+        <activity android:name=".MainActivity8" />
+        <activity android:name=".MainActivity9" />
+        <activity android:name=".MainActivity10" />
+        <activity android:name=".MainActivity11" />
+        <activity android:name=".MainActivity12" />
+        <activity android:name=".DateTime"></activity>
+        <activity android:name=".GridItem2"></activity>
+        <activity
+            android:name=".MapsActivity2"
+            android:label="@string/title_activity_maps2">
+
+
+
+        </activity>
+    </application>
+
+</manifest>

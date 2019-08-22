@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".secondActivity">
+
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="-3dp"
+        android:alpha="0.5"
+        android:scaleType="centerCrop"
+        app:srcCompat="@drawable/bgdige" />
+
+    <Button
+        android:id="@+id/button5"
+        android:layout_width="wrap_content"
+        android:layout_height="33dp"
+
+
+        android:layout_marginLeft="150dp"
+        android:layout_marginTop="500dp"
+        android:background="#ff0000"
+        android:text="ADMIN"
+        android:textColor="@color/colorPrimary1" />
+
+
+    <Button
+        android:id="@+id/button6"
+        android:layout_width="143dp"
+        android:layout_height="38dp"
+        android:layout_marginLeft="120dp"
+        android:layout_marginTop="190dp"
+        android:background="#ff0000"
+        android:text="AVAILABLE CARS"
+        android:textColor="@color/colorPrimary1" />
+
+    <Button
+        android:id="@+id/button4"
+        android:layout_width="131dp"
+        android:layout_height="33dp"
+        android:layout_marginLeft="125dp"
+        android:layout_marginTop="380dp"
+        android:background="#ff0000"
+        android:text="DESTINATIONS"
+        android:textColor="@color/colorPrimary1" />
+
+</RelativeLayout>
